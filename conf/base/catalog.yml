@@ -3,45 +3,45 @@
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://kedro.readthedocs.io/en/stable/05_data/01_data_catalog.html
 Butane_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/Samples_xyz/butane.xyz
 
 NCT_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/Samples_xyz/NCT.xyz
 
 Pentane_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/Samples_xyz/pentane.xyz
 
 Propane_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/Samples_xyz/propane.xyz
 
 Vanillin_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/Samples_xyz/Vanillin.xyz
 
 aBiCyDNH_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/aBiCyDNH.xyz
 
 aBiCyDNH2_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/aBiCyDNH2.xyz
 
 al45Me2CyDNH_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/al45Me2CyDNH.xyz
 
 al45Me2CyDNH2_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/al45Me2CyDNH2.xyz
 
 alCyDNH_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/alCyDNH.xyz
 
 alCyDNH2_xyz:
-  type: Cyclodextrins-vKM.src.Cyclodextrins_vKM.extras.datasets.xyz_dataset
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/alCyDNH2.xyz

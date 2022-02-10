@@ -3,7 +3,7 @@ from kedro.io import AbstractDataSet, DataSetError
 
 class xyzDataSet(AbstractDataSet):
     def __init__(self, filepath):
-        self.filepath = filepath
+        self._filepath = filepath
     def _save(self, _):
         raise DataSetError("Read Only DataSet")
     def _load(self):
