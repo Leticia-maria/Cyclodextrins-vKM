@@ -10,4 +10,4 @@ class xyzDataSet(AbstractDataSet):
         with open(str(self._filepath), 'rb') as f:
             return f.read()
     def _describe(self):
-        return diect(filpath=self._filepath)
+        return dict(filpath=self._filepath)
