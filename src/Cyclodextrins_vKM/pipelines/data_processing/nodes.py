@@ -33,7 +33,7 @@ def GetPka(GibbsE):
     T = input("What's the Temperature(if you give nothing it will be 273.15K): ")
     if T == '':
         T = 273.15
-    LnK = GibbsE/(-1*R*T)
+    LnK = GibbsEkJpM/(-1*R*T)
     K = np.exp(LnK)
     pKa = -1*np.log10(K)
     print(f'pKa = {pKa}')
