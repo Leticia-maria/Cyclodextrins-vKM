@@ -6,10 +6,17 @@ def ConvertMol(x):
     Solvent = input('If you got a solvent give us the name here if not just hit enter: ')
     if Solvent == '':
         Solvent = None
-    MoI = ade.Molecule(x, solvent_name=Solvent)
+    xnew = x.decode("utf-8")
+    with open('Molecule.xyz','w') as XYZfile:
+        XYZfile.write(xnew)
+
+    MoI = ade.Molecule('Molecule.xyz', solvent_name=Solvent)
+
+    XYZfile.close()
     return(MoI)
 
 def OptimizeMol(MoI):
+    print(MoI)
     MoI.optimise(method=ade.methods.XTB())
     return(MoI)
 
@@ -22,7 +29,7 @@ def CalculateMol(MoI):
     return(CoI)
 
 def GetGibbsMol(MoI,CoI):
-    x.calc_thermo(calc=CoI)
+    MoI.calc_thermo(calc=CoI)
     print(f'G = {MoI.free_energy:.6f} Ha')
     GibbsE = MoI.free_energy
     return(GibbsE)
