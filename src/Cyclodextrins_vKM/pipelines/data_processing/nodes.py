@@ -34,7 +34,7 @@ def GetGibbsMol(MoI,CoI):
     GibbsE = MoI.free_energy
     return(GibbsE)
 
-def getDeltGibbs(GibbsE1, GibbsE2):
+def GetDeltGibbs(GibbsE1, GibbsE2):
     DeltGibbs = np.abs(GibbsE1 - GibbsE2)
 
 def GetPka(DeltGibbsE):
