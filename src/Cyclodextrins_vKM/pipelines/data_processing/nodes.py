@@ -34,13 +34,16 @@ def GetGibbsMol(MoI,CoI):
     GibbsE = MoI.free_energy
     return(GibbsE)
 
-def GetPka(GibbsE):
-    GibbsEkJpM = 2600*GibbsE
+def getDeltGibbs(GibbsE1, GibbsE2):
+    DeltGibbs = np.abs(GibbsE1 - GibbsE2)
+
+def GetPka(DeltGibbsE):
+    DeltGibbsEkJpM = 2600*DeltGibbsE
     R = 0.008314
     T = input("What's the Temperature(if you give nothing it will be 273.15K): ")
     if T == '':
         T = 273.15
-    LnK = GibbsEkJpM/(-1*R*T)
+    LnK = DeltGibbsEkJpM/(-1*R*T)
     K = np.exp(LnK)
     pKa = -1*np.log10(K)
     print(f'pKa = {pKa}')
