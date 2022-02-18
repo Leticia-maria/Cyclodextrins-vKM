@@ -45,3 +45,27 @@ alCyDNH_xyz:
 alCyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/alCyDNH2.xyz
+
+bBiCyDNH_xyz:
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
+  filepath: data/01_raw/superbases_xyz/bBiCyDNH.xyz
+
+bBiCyDNH2_xyz:
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
+  filepath: data/01_raw/superbases_xyz/bBiCyDNH2.xyz
+
+bl45Me2CyDNH_xyz:
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
+  filepath: data/01_raw/superbases_xyz/bl45Me2CyDNH.xyz
+
+bl45Me2CyDNH2_xyz:
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
+  filepath: data/01_raw/superbases_xyz/bl45Me2CyDNH2.xyz
+
+blCyDNH_xyz:
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
+  filepath: data/01_raw/superbases_xyz/blCyDNH.xyz
+
+blCyDNH2_xyz:
+  type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
+  filepath: data/01_raw/superbases_xyz/blCyDNH2.xyz
