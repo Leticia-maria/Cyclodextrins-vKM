@@ -28,6 +28,7 @@ def CalculateMol(MoI):
         NoC = 1
     CoI = ade.Calculation(name=MoI.name,molecule=MoI,method=orca,keywords=orca.keywords.hess,n_cores=NoC)
     CoI.output.filename = MoI.name+'.out'
+    print(CoI)
     return(CoI)
 
 def GetGibbsMol(MoI,CoI):
