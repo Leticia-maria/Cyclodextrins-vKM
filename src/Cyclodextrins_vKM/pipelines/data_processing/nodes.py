@@ -4,14 +4,15 @@ import numpy as np
 
 def ConvertMol(x):
     Solvent = input('If you got a solvent give us the name here if not just hit enter: ')
-    Name = input('Give a name for the file ending in .xyz:')
+    Name = input('Give a name for the file ending in .xyz: ')
+    Charge = input('Specify charge of the molecule: ')
     if Solvent == '':
         Solvent = None
     xnew = x.decode("utf-8")
     with open(Name,'w') as XYZfile:
         XYZfile.write(xnew)
 
-    MoI = ade.Molecule(Name, solvent_name=Solvent)
+    MoI = ade.Molecule(Name, solvent_name=Solvent, charge=Charge)
 
     XYZfile.close()
     return(MoI)
