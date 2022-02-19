@@ -30,21 +30,21 @@ aBiCyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/aBiCyDNH2.xyz
 
-al45Me2CyDNH_xyz:
+aI45Me2CyDNH_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/al45Me2CyDNH.xyz
+  filepath: data/01_raw/superbases_xyz/aI45Me2CyDNH.xyz
 
-al45Me2CyDNH2_xyz:
+aI45Me2CyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/al45Me2CyDNH2.xyz
+  filepath: data/01_raw/superbases_xyz/aI45Me2CyDNH2.xyz
 
-alCyDNH_xyz:
+aICyDNH_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/alCyDNH.xyz
+  filepath: data/01_raw/superbases_xyz/aICyDNH.xyz
 
-alCyDNH2_xyz:
+aICyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/alCyDNH2.xyz
+  filepath: data/01_raw/superbases_xyz/aICyDNH2.xyz
 
 bBiCyDNH_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
@@ -54,18 +54,18 @@ bBiCyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
   filepath: data/01_raw/superbases_xyz/bBiCyDNH2.xyz
 
-bl45Me2CyDNH_xyz:
+bI45Me2CyDNH_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/bl45Me2CyDNH.xyz
+  filepath: data/01_raw/superbases_xyz/bI45Me2CyDNH.xyz
 
-bl45Me2CyDNH2_xyz:
+bI45Me2CyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/bl45Me2CyDNH2.xyz
+  filepath: data/01_raw/superbases_xyz/bI45Me2CyDNH2.xyz
 
-blCyDNH_xyz:
+bICyDNH_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/blCyDNH.xyz
+  filepath: data/01_raw/superbases_xyz/bICyDNH.xyz
 
-blCyDNH2_xyz:
+bICyDNH2_xyz:
   type: Cyclodextrins_vKM.extras.datasets.xyz_dataset.xyzDataSet
-  filepath: data/01_raw/superbases_xyz/blCyDNH2.xyz
+  filepath: data/01_raw/superbases_xyz/bICyDNH2.xyz
