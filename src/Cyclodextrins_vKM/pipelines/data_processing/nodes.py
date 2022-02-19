@@ -27,13 +27,13 @@ def CalculateMol(MoI):
     if NoC == '':
         NoC = 1
     CoI = ade.Calculation(name=MoI.name,molecule=MoI,method=orca,keywords=orca.keywords.hess,n_cores=NoC)
+    print(CoI)
     CoI.output.filename = MoI.name+'.out'
+    print(CoI.output.filename)
     return(CoI)
 
 def GetGibbsMol(MoI,CoI):
-    print(MoI)
-    print(CoI)
-    MoI.calc_thermo(calc=CoI, temp=288.15, ss='1atm', sn=1)
+    MoI.calc_thermo(calc=CoI)
     print(f'G = {MoI.free_energy:.6f} Ha')
     GibbsE = MoI.free_energy
     return(GibbsE)
