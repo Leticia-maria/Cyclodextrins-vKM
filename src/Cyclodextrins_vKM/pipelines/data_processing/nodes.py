@@ -33,7 +33,7 @@ def CalculateMol(MoI):
 def GetGibbsMol(MoI,CoI):
     print(MoI)
     print(CoI)
-    MoI.calc_thermo(calc=CoI)
+    MoI.calc_thermo(calc=CoI, temp=288.15, ss='1atm', sn=1)
     print(f'G = {MoI.free_energy:.6f} Ha')
     GibbsE = MoI.free_energy
     return(GibbsE)
