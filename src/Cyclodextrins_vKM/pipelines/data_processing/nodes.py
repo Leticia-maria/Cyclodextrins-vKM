@@ -4,13 +4,12 @@ import numpy as np
 
 def ConvertMol(x):
     Solvent = input('If you got a solvent give us the name here if not just hit enter: ')
+    Name = input('Give a name for the file ending in .xyz:')
     if Solvent == '':
         Solvent = None
     xnew = x.decode("utf-8")
-    with open('Molecule.xyz','w') as XYZfile:
+    with open(Name,'w') as XYZfile:
         XYZfile.write(xnew)
-
-    Name = input('Give a name for the file ending in .xyz:')
 
     MoI = ade.Molecule(Name, solvent_name=Solvent)
 
