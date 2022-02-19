@@ -10,7 +10,9 @@ def ConvertMol(x):
     with open('Molecule.xyz','w') as XYZfile:
         XYZfile.write(xnew)
 
-    MoI = ade.Molecule('Molecule.xyz', solvent_name=Solvent)
+    Name = input('Give a name for the file ending in .xyz:')
+
+    MoI = ade.Molecule(Name, solvent_name=Solvent)
 
     XYZfile.close()
     return(MoI)
